@@ -5,9 +5,10 @@ public class Main {
 
     Arbol miCerezo = new Arbol(30,8,TipoArbol.CEREZO);
 
-    miAraucaria.anunciarArbol();
-    miCerezo.anunciarArbol();
-
+        System.out.println(miAraucaria.getAlturaFt());
+        System.out.println(miCerezo.getAlturaFt());
+        miAraucaria.anunciarArbolgrande();
+        miCerezo.anunciarArbolgrande();
 
     }
 }
